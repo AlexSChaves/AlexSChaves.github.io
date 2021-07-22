@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Meu Portfólio</title>
 </head>
 <body>
-    <h1>Alex Sandro Chaves dos Santos Sousa</h1>
-    <ul>
-        <li><a href="#foto">Foto</a></li>
-        <li><a href="#descricao">Descrição</a></li>
-        <li><a href="#skills">Skills</a></li>
-    </ul>
-    <img src="../images/myself.jpeg" width="150px" alt="Foto minha usando uma camisa branca estampada e com buchechas de Kiko">
-    <br />
-    <a href="foto.html" id="foto">Mesma Foto</a>
-    <a href="https://store.steampowered.com/?l=portuguese" target="_blank">Steam</a>
-    <p id="descricao">Nascido no interior do Maranhão, resolveu tentar a vida no DF,<br> e agora está apostando todas as fichas em ser um Desenvolvedor Web.</p>
-    <p id="skills">Lista de Habilidades</p>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li><strong>Paciência</strong> <s>ou não</s></li>
-    </ul>
+    <div id="header">
+        <h1>Alex Sandro Chaves dos Santos Sousa</h1>
+        <ul class="menu">
+            <li><a href="#foto">Foto</a></li>
+            <li><a href="#descricao">Descrição</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </div>    
+    <div id="section">
+        <img id = "myPic" src="../images/myself.jpeg" width="150px" alt="Foto minha usando uma camisa branca estampada e com buchechas de Kiko">
+        <br />
+        <p id="descricao">Nascido no interior do Maranhão, resolveu tentar a vida no DF,<br> e agora está apostando todas as fichas em ser um Desenvolvedor Web.</p>
+    </div>
+    <div id="skills">
+        <p class="title-skills">Lista de Habilidades Hard Skills</p>
+        <div class="habilidades">
+            <div class="cada-skill">
+                <img />
+                <p>HTML</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

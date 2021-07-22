@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: #f2f3ae;
+}
+
+h1{
+    font-family: monospace;
+    text-align: center;
+}
+
+ul.menu{
+    display: block;
+    text-align: center;
+}
+
+ul.menu li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+}
+
+ul.menu li a:link{
+    background-color: rgb(248, 211, 108);
+}
+
+ul.menu li a:hover {
+    background-color: rgb(248, 211, 50);
+}
+
+
+#section{
+    display: flex;
+    background-color: #EDD382;
+}
+
+#myPic{
+    border-radius: 50px;
+    margin-right: auto;
+}
+
+#descricao{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin : auto;
+}
+
+#skills{
+    background-color: #FC9E4F;
+}
+
+.title-skills{
+    border: 1 px solid red;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.habilidades{
+    border: 1px solid red;
+}
+
+.cada-skill{
+    border: 1px solid red;
+    text-align: center;
+    padding: auto;
+}    
+
+
+
